@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
   // `,
   template:`
 <app-header></app-header>
+<div class="container">
 <p>Hello world</p>
 <button>Hi ---</button>
 <pre>[ vardas: "Jonas" ]</pre>
@@ -24,8 +25,10 @@ import { Component } from '@angular/core';
 <!--<button (click)="counter = counter + 1">Click me</button>-->
 <button (click)=clickHandlerPlus()>Click me+</button>
 <button (click)=clickHandlerMinus()>Click me-</button>
+
+<div>
 `,
-  styles: ['p {color: salmon;} ', ''],
+  styles: ['p {color: salmon;} ', 'button { background-color: green; }'],
 })
 export class AppComponent {
   title = 'helloWorld';
