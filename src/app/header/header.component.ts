@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   headerFileName = 'bootstrap-logo.svg';
-  headerLogoUrl = 'https://getbootstrap.com/docs/5.1/assets/brand/' + this.headerFileName;
+  //headerLogoUrl = 'https://getbootstrap.com/docs/5.1/assets/brand/' + this.headerFileName;
 
   constructor() { }
 

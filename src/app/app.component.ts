@@ -23,8 +23,8 @@ import { Component } from '@angular/core';
 <p>Example with incrementation button</p>
 <p>{{ counter }}</p>
 <!--<button (click)="counter = counter + 1">Click me</button>-->
-<button (click)=clickHandlerPlus()>Click me+</button>
-<button (click)=clickHandlerMinus()>Click me-</button>
+<button class="btn btn-worning" (click)=clickHandlerPlus()>Click me+</button>
+<button class="btn btn-worning" (click)=clickHandlerMinus()>Click me-</button>
 
   <a href="#">This will not be red!</a>
 <div>
