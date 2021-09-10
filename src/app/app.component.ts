@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   //templateUrl: './app.component.html',
-  styleUrls: ['./header/header.component.css'],
+  //styleUrls: ['./header/header.component.css'],
   // template: `...
   // `,
   template:`
@@ -26,9 +26,10 @@ import { Component } from '@angular/core';
 <button (click)=clickHandlerPlus()>Click me+</button>
 <button (click)=clickHandlerMinus()>Click me-</button>
 
+  <a href="#">This will not be red!</a>
 <div>
 `,
-  styles: ['p {color: salmon;} ', 'button { background-color: green; }'],
+  styles: ['p {color: salmon;} ', 'button { background-color: white; }'],
 })
 export class AppComponent {
   title = 'helloWorld';
